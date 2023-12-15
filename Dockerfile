@@ -63,7 +63,7 @@ RUN apt-get update -y && \
 # Install Git LFS
 
 # renovate: datasource=github-tags depName=git-lfs/git-lfs extractVersion=^v(?<version>.*)$
-ENV GITLFS_VERSION=3.4.0
+ENV GITLFS_VERSION=3.4.1
 
 RUN apt-get update -y && \
   # Install Git LFS
