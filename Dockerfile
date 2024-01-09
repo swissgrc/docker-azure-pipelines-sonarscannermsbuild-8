@@ -93,7 +93,7 @@ RUN apt-get update -y && \
 # Install .NET
 
 # renovate: datasource=github-tags depName=dotnet/sdk extractVersion=^v(?<version>.*)$
-ENV DOTNET_VERSION=8.0.100
+ENV DOTNET_VERSION=8.0.101
 
 ENV \
     # Do not show first run text
