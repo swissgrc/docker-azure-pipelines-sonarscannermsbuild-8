@@ -77,7 +77,7 @@ RUN apt-get update -y && \
 # Install NodeJS
 
 # renovate: datasource=github-tags depName=nodejs/node extractVersion=^v(?<version>.*)$
-ENV NODE_VERSION=20.13.1
+ENV NODE_VERSION=20.14.0
 
 # Install NodeJS
 
