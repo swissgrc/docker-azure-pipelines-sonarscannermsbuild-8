@@ -43,7 +43,7 @@ The following example shows the container used for a deployment step which shows
 
 | Tag          | Description                                     | Base Image                                 | .NET SDK | NodeJS  | Git        | Git LFS | Size                                                                                                                                           |
 |--------------|-------------------------------------------------|--------------------------------------------|----------|---------|------------|---------|------------------------------------------------------------------------------------------------------------------------------------------------|
-| 8-unstable   | Latest unstable release (from `develop` branch) | swissgrc/azure-pipelines-openjdk:17.0.11.0 | 8.0.303  | 20.16.0 | 2.39.2-1.1 | 3.5.1   | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-sonarscannermsbuild/8-unstable?style=flat-square) |
+| 8-unstable   | Latest unstable release (from `develop` branch) | swissgrc/azure-pipelines-openjdk:17.0.12.0 | 8.0.303  | 20.16.0 | 2.39.2-1.1 | 3.5.1   | ![Docker Image Size (tag)](https://img.shields.io/docker/image-size/swissgrc/azure-pipelines-sonarscannermsbuild/8-unstable?style=flat-square) |
 
 [Sonar Scanner for .NET]: https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-msbuild/
 [Azure Pipelines container jobs]: https://docs.microsoft.com/en-us/azure/devops/pipelines/process/container-phases
