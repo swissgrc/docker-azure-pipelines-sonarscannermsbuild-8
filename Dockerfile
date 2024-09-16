@@ -54,7 +54,7 @@ COPY --from=build /etc/apt/sources.list.d/ /etc/apt/sources.list.d
 # Install Git
 
 # renovate: datasource=repology depName=debian_12/git versioning=loose
-ENV GIT_VERSION=1:2.39.2-1.1
+ENV GIT_VERSION=1:2.39.5-0+deb12u1
 
 RUN apt-get update -y && \
   # Install Git
